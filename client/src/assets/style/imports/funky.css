@@ -1,9 +1,8 @@
-::selection {
+/* ::selection {
   color: theme('colors.white');
   background: theme('colors.action');
 }
 
-/* Scroll */
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -16,4 +15,4 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: theme('colors.action');
-}
+} */
