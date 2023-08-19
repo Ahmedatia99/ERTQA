@@ -44,10 +44,9 @@ export default function About() {
         style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
         className="w-full h-full  bg-center bg-cover duration-500"
       >
-        {/* <img src={slides[currentIndex].src} /> */}
       </div>
       {/* Left Arrow */}
-      <div className=" hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-main text-white cursor-pointer">
+      <div className=" hidden group-hover:block absolute top-[50%]  left-5 text-2xl rounded-full p-2 bg-main text-white cursor-pointer">
         <svg
           onClick={prevSlide}
           size={30}

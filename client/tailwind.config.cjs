@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         main: '#007a64',
-        subcolor: '#6660a6',
+        footer: '#6660a6',
       },
       boxShadow: {
         '3xl': 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
